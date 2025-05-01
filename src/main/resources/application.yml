@@ -1,0 +1,4 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://admin:<password>@clusterwebflux.qmhpqid.mongodb.net/databaseweb?retryWrites=true&w=majority&appName=Clusterwebflux
