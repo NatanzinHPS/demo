@@ -1,4 +1,5 @@
 spring:
   data:
     mongodb:
-      uri: mongodb+srv://admin:<password>@clusterwebflux.qmhpqid.mongodb.net/databaseweb?retryWrites=true&w=majority&appName=Clusterwebflux
+      uri: mongodb+srv://${DB_USER:admin}:${DB_PASSWORD:admin}@clusterwebflux.qmhpqid.mongodb.net/${DB_NAME:databaseweb}?retryWrites=true&w=majority&appName=Clusterwebflux
+      auto-index-creation: true
