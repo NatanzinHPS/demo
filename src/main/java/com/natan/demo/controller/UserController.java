@@ -8,7 +8,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
-import com.natan.demo.entity.User;
+import com.natan.demo.model.request.UserRequest;
+import com.natan.demo.model.response.UserResponse;
 
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
